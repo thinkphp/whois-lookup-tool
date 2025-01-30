@@ -1,7 +1,15 @@
 [package]
 name = "whois-dns-tool"
 version = "0.1.0"
+authors = ["Adrian Statescu <mergesortv@gmail.com>"]
 edition = "2021"
+description = "A command-line interface (CLI) tool written in Rust for performing WHOIS and DNS lookups. This tool provides a simple way to query domain registration information and DNS records."
+license = "MIT"
+license-file = "LICENSE"
+documentation = "https://github.com/thinkphp/whois-lookup-tool/blob/master/README.md"
+homepage = "https://github.com/thinkphp/whois-lookup-tool/blob/master/README.md"
+repository = "https://github.com/thinkphp/whois-lookup-tool"
+
 
 [dependencies]
 clap = { version = "4.4", features = ["derive"] }
@@ -9,3 +17,4 @@ tokio = { version = "1.36", features = ["full"] }
 trust-dns-resolver = "0.23"
 anyhow = "1.0"
 colored = "2.1"
+
